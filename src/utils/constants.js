@@ -1,0 +1,15 @@
+export const LOGO ="https://help.nflxext.com/helpcenter/OneTrust/oneTrust_production/consent/87b6a5c0-0104-4e96-a291-092c11350111/01938dc4-59b3-7bbc-b635-c4131030e85f/logos/dd6b162f-1a32-456a-9cfe-897231c7763c/4345ea78-053c-46d2-b11e-09adaef973dc/Netflix_Logo_PMS.png";
+export const USER_AVATAR ="data:image/png;base64,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";
+
+export const API_options = {
+    method: 'GET',
+    headers: {
+      accept: 'application/json',
+      Authorization: 'Bearer ${process.env.TMDB_KEY}'
+    }
+  };
+
+export const IMG_URL = "https://image.tmdb.org/t/p/original";
+export const BG_URL ="https://assets.nflxext.com/ffe/siteui/vlv3/fbf440b2-24a0-49f5-b2ba-a5cbe8ea8736/web/IN-en-20250324-TRIFECTA-perspective_d7c906ec-0531-47de-8ece-470d5061c88a_medium.jpg";
+
+export const selectLanguages = [{identifier:"en",name:"English"},{identifier:"hindi",name:"Hindi"},{identifier:"spanish",name:"Spanish"},{identifier:"telugu",name:"Telugu"}]
