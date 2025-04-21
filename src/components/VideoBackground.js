@@ -6,7 +6,7 @@ import { useSelector } from 'react-redux';
 const VideoBackground = ({id}) => {
   useVideo(id);
   const trailer = useSelector(store => store.movies?.trailerVideo);
-  if(!trailer && !trailer?.key) return (<div>trailer loading....</div>)
+  if(!trailer && !trailer?.key) return (<div>trailer loading...</div>)
  
   return (
     
